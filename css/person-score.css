@@ -1,0 +1,95 @@
+.person-main{
+	width: 10.0rem;
+	height:7.46875rem;
+	overflow: hidden;
+}
+/*恭喜中奖的话语*/
+.person-congrulate{
+	width: 6.953125rem;
+	height: 1.125rem;
+	margin: 0 auto;
+	margin-top: 2.46875rem;
+}
+.person-congrulate img{width: 100%;height: 100%;}
+.best-score{
+  margin: 0 auto;
+  width: 7.0625rem;
+  height: 1.0rem;
+  font-size: 0.40625rem;
+  color: #fff;
+   padding-top: 0.3125rem;
+
+}
+.best-score p{
+	width: 7.0625rem;
+	height: 1.0rem;
+	background-color: #fff;
+	text-align: center;
+	font-size: 0.40625rem;
+	line-height: 0.8rem;
+	color: #d21026;
+}
+/*字体设置钱数*/
+.all-money{
+  width:2.96875rem;
+  height: 1.09375rem;
+  line-height: 1.09375rem;
+  margin: 0 auto;
+  margin-top: 0.625rem;
+  font-size:1.09375rem;
+  text-align: center;
+  color: #fff;
+}
+.person-font{
+  width:5.0rem;
+  height: 0.46875rem; 
+  margin: 0 auto;
+  text-align: center;
+  padding-top:0.625rem;
+  font-size:0.34375rem;
+  color: #fff;
+}
+
+/*分享给别人*/
+.person-again{
+	margin: 0 auto;
+	width: 7.125rem;
+	height:3.125rem;
+	padding-top: 0.3125rem;
+	vertical-align: middle;
+}
+.person-again img{
+    animation: start_move 1s ease-in-out infinite;
+  -webkit-animation: start_move 1s ease-in-out infinite;
+  -moz-animation:start_move 1s ease-in-out infinite;
+  -o-animation:start_move 1s ease-in-out infinite;
+  -ms-animation:start_move 1s ease-in-out infinite;
+}
+.person-again img:nth-child(1){
+	float: left;
+	width: 2.65625rem;
+	height: 2.65625rem;
+}
+
+.person-again img:nth-child(2){
+	float: right;
+	width: 2.75rem;
+	height: 2.75rem;
+}
+/*弹出内容 让好友也来玩*/
+.again-common{
+   position: absolute;
+	top:0.46875rem;
+    right:0.46875rem;
+	z-index: 300;
+	opacity: 0.8;
+}
+.again-common img{
+	width:4.859375rem;
+	height: 3.8125rem; 
+}
+
+
+
+
+

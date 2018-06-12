@@ -1,0 +1,122 @@
+/*登录界面*/
+
+.bomb-login,.bomb-common{
+	position: absolute;
+	top: 3.4375rem;
+    left: 1.296875rem;
+    border: 0.0625rem solid #e33145;
+	border-radius: 0.15625rem;
+	background: #ffead1;
+	z-index: 300;
+}
+.login{
+	width: 7.28125rem;
+	height: 7.765625rem;
+}
+.cancle-btnlogin,.cancle-btn{
+	width:0.625rem;
+    height: 0.625rem;
+    border: 0.0625rem solid #e33145;
+    border-radius:50%;
+    text-align: center;
+    font-size: 0.625rem;
+    background: #fff;
+    color: #e33145;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    top: -0.9375rem;
+}
+.login-info{
+	padding-top: 0.15625rem;
+	width: 6.984375rem;
+	height:1.390625rem;
+	margin: 0 auto;
+}
+.login-info img{
+	width: 100%;
+	height: 100%;
+}
+.login p{
+	width: 3.71875rem;
+	font-size:0.34375rem;
+	text-align: center;
+	margin: 0 auto;
+}
+.person-loginInfo{
+	margin: 0 auto;
+	width: 5.5625rem;
+	margin-top: 0.15625rem;
+}
+.person-loginInfo input[type="text"]{
+	width: 5.5625rem;
+	border: 0.0625rem solid #e33145;
+	height: 1.09375rem;
+	border-radius:0.15625rem;
+	font-size: 0.40625rem;
+	color: #000;
+	text-indent: 0.15625rem; 
+	background: #f2bb00;
+}
+.person-loginInfo input{
+	margin-bottom: 0.15625rem;
+}
+.person-loginInfo #submit{
+	width: 4.03125rem;
+	height: 1.328125rem;
+	background:#e33145;
+	border-radius: 0.15625rem; 
+	margin: 0.46875rem auto;
+	color: #fff;
+	font-size: 0.40625rem;
+	font-weight: bolder;
+}
+/*数钱榜*/
+.count-moneyList{
+	width: 7.28125rem;
+	height: 9.96875rem;
+
+}
+.cont-img{margin: 0 auto;width: 3.71875rem;height: 1.34375rem;padding-top:0.15625rem; }
+.cont-img img{width: 100%;height: 100%;}
+.player-list{margin: 0 auto;width:6.46875rem;height:7.65625rem;}
+
+.player-list li{width: 100%;height:1.53125rem;
+	border-bottom:0.03125rem dashed #988d7f;}
+.player-list li div{
+	float: left;
+
+}
+.player-list .rank-name{width: 0.5rem;height:0.6875rem;padding-top: 0.421875rem;}
+
+.player-list .rank-name img{width: 100%;height: 100%;}
+.player-list .player-content{width: 4.21875rem;text-align: middle;padding-top: 0.28125rem;margin-left:0.28125rem;}
+.player-list .player-head{width:1.03125rem;height: 1.03125rem;border-radius:50%;background: blue;}
+.player-list .player-head img{width:1.03125rem;height: 1.03125rem;border-radius:50%;}
+.player-score{display: block;float: right;line-height:1.53125rem;margin-right: 0.15625rem;}
+.player-content span{display: inline-block;line-height: 1.0rem;text-indent: 0.25rem;}
+/*活动规则*/
+.activity{
+	width: 7.28125rem;
+	height: 9.0625rem;
+}
+.common-font{font-size: 0.625rem;text-align: center;padding: 0.3125rem 0;font-weight:900;}
+.activity li{
+	padding: 0 0.3125rem;
+	font-size:0.375rem;
+	line-height:0.4375rem;
+}
+/*奖品*/
+.prize{
+  	width: 7.28125rem;
+  	height: 7.65625rem;
+}
+.prize li{
+	font-size:0.375rem;
+	line-height:0.4375rem;
+	padding:0.53125rem 0.3125rem 0;
+}
+.prize li:nth-child(1){
+	padding-top: 0;
+}
+

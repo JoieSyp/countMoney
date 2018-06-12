@@ -1,0 +1,116 @@
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script>
+   <title>得分情况</title> 
+   <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+   <link rel="stylesheet" type="text/css" href="css/common.css"/>
+   <link rel="stylesheet" type="text/css" href="css/bomb_box.css"/>
+   <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <link rel="stylesheet" type="text/css" href="css/person-score.css"/>
+   <script type="text/javascript" src="js/jQuery-2.1.3.min.js"></script>
+</head>
+<body style="height:100vh;">
+    <div class="main">
+      <div class="main-btn" style="display:none;"></div>
+      <div class="person-main">
+         <div class="person-congrulate">
+            <img src="images/congrulate.png" alt="恭喜你取得了成功" />
+         </div>
+         <!-- 显示钱数 -->
+          <h2 class="all-money" id="all-money">￥888</h2>
+          <p class="person-font">没办法！你已经强到没有对手了</p>
+          <div class="best-score">
+          <!-- 显示排名 -->
+             <p id="txt-score">fjdfjkldfkdfklm</p>
+          </div>
+      </div>
+      <div class="count_center" id="money-count">
+          
+       </div>
+        <!-- 钱的位置 -->
+       <div class="count-moneyp">
+        <div class="person-again">
+           <img src="images/again.png" id="again-person" />
+           <img src="images/share.png" id="share-person" />
+        </div> 
+      </div>
+      <div class="four-btn">
+        <ul>
+           <li><a href="javascript:void(0);" class="btn-list" id="count-list">数钱榜</a></li>
+           <li><a href="javascript:void(0);" class="btn-list common-list">活动<br/>规则</a></li>
+           <li><a href="javascript:void(0);" class="btn-list common-list">活动<br/>奖品</a></li>
+           <li><a href="javascript:void(0);" class="btn-list common-list">活动<br/>使用说明</a></li>
+         </ul>
+       </div>
+       <div class="main-bestbottom">
+         <img src="images/best_bottom.png"/>
+       </div>
+<!-- 数钱榜 -->
+        <div class="count-moneyList bomb-common" style="display:none;" id="count-listinfo">
+           <div class="cancle-btn" id="cancle-btn">X </div>
+           <div class="cont-img">
+             <img src="images/countImg.png" alt="数钱"/>
+           </div>
+           <ul class="player-list">
+              <li>
+                 <div class="rank-name"><img src="images/first-score.png"></div>
+                 <div class="player-content">
+                   <div class="player-head"></div>
+                   <span>高珊珊姗姗</span>
+                 </div>
+                 <span class="player-score">1120</span>
+              </li>
+           </ul>
+        </div>
+       <!-- 活动规则 -->
+       <div class="activity bomb-common special-common" style="display:none;">
+          <div class="cancle-btn" id="cancle-btn">X </div>
+          <h2 class="common-font">活动规则</h2>
+          <ul>
+            <li>1、每人有多次游戏机会，但成绩只能提交一次，且提交之后不能更改！</li>
+            <li>2、提交成绩时要提供姓名及手机号码作为兑奖凭证，因用户本人未在规定时间内提供正确的手机号码造成的奖品损失，由用户个人承担。
+            </li>
+            <li>3、活动时间为2016年5月11日-5月19日24:00，活动结束后将在“雾灵山庄”微信公布中奖名单。</li>
+            <li>4、获奖规则：系统将根据大家提交的成绩，按照由多到少的规则进行排行，排名第1的网友将获得一等奖，排名第2-第21位的网友将分获二等奖，以此类推。</li>
+            <li>5、奖品的发放：活动结束后，将由工作人员与您取得联系，并将相应的卡券编号发送到您提供的手机号码上。</li>
+          </ul>
+       </div>
+       <!-- 活动奖品 -->
+        <div class="prize bomb-common special-common" style="display:none;">
+          <div class="cancle-btn" id="cancle-btn">X </div>
+          <h2 class="common-font">活动奖品</h2>
+          <ul>
+            <li>一等奖1人：价值1488元7号楼1晚豪华标间免费房券1张，并可享康体项目3折优惠；</li>
+
+            <li>二等奖20人：100元订房代金券每人1张，并可享康体项目4折优惠；</li>
+
+            <li>三等奖50人：50元订房代金券每人1张，并可享康体项目5折优惠。</li>
+            <li>奖品的有效期：2016年5月20日至6月15日（周五、周六及法定节假日不可用）</li>
+          </ul>
+
+       </div>
+
+       <!-- 活动奖劵使用说明 -->
+        <div class="activity bomb-common special-common" style="display:none;">
+          <div class="cancle-btn" id="cancle-btn">X </div>
+          <h2 class="common-font">奖券使用说明</h2>
+          <ul>
+            <li>  1、奖品的使用：请务必至少提前一周致电010-81027788或81027799进行预约，并于入住时向前台服务人员出示您手机上收到的卡券编号即可使用（需同时验证获奖人姓名与手机号码）。</li>
+            <li>2、代金券仅适用于线下门市价入住客房消费使用，不适用于通过携程或微信等其他线上渠道预定使用。
+            </li>
+            <li>3、免费房安排的房间将视当时酒店排房情况而定，如您所预约的时段预订已满，将与您协商调整入住时间。</li>
+            <li>4、免费房券及代金券不得用于除订房外其他产品消费，不得与酒店其他优惠折扣或礼券同时使用，且不予退换、兑换现金或找赎。</li>
+            <li>5、对于恶意刷奖者和作弊者，主办方有权取消其兑奖资格。</li>
+          </ul>
+       </div>
+       <!--分享给土豪-->
+        <div class="share-main again-common" style="display:none;" id="share-friends">
+          <img src="images/share-us.png"/>
+        </div>
+  </div>
+ </body>
+ <script type="text/javascript" src="js/jQuery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/score.js"></script>
+ </html>

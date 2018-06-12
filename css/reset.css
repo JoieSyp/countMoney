@@ -1,0 +1,7 @@
+body,div,p,ul,li,ol,dl,dt,dd,table,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+input[type="text"]{border: none;outline: none;border: 1px solid #000;}
+input{display: block;}
+a:hover{text-decoration: none;}
+body{font-family:sans-serif;}

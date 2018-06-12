@@ -1,0 +1,153 @@
+.main-back{
+	width:10.0rem;
+	height: 100vh;
+	margin: 0 auto;
+	background: url(../images/mainback.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	overflow: hidden;
+	position: relative;
+}
+.count-top{
+	width: 10.0rem;
+	height: 5.6875rem;
+	overflow: hidden;
+}
+.count-content{
+	margin: 0 auto;
+	width: 8.34375rem;
+	height: 2.96875rem;
+	margin-top: 2.25rem;
+	padding-top:0.40625rem;
+	background:url(../images/radius.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+	font-size:0.9375rem;
+	color: #d21026;
+	overflow: hidden;
+	position: relative;
+}
+.count-content div{
+	height: 2.65625rem;
+    position: absolute;
+    left: 0;
+    top: 0.40625rem;
+}
+/*中间区域*/
+.count_center{
+	width: 6.0rem;
+	height: 1.71875rem;
+	margin: 0 auto;
+	margin-bottom: 1.5625rem;
+	font-size: 0.46875rem;
+	color: #fff;
+}
+.count_center span{
+	display:block;
+	float: left;
+	margin-left:0.1875rem;
+	width: 1.1875rem;
+	height: 1.75rem;
+	background:#bf986b;
+	border-radius: 0.1875rem;
+	text-align: center;
+   line-height: 1.75rem;
+
+}
+.count_center .last{
+	width: 1.59375rem;
+	height: 1.453125rem;
+	vertical-align: middle;
+	background: url(../images/block.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/*数钱*/
+.count-hand{
+	width: 3.671875rem;
+	height: 2.328125rem;
+	position: absolute;
+	right: 0.15625rem;
+	bottom:20%;
+	animation: count_move 4s ease infinite;
+	-webkit-animation: count_move 4s ease infinite;
+	-moz-animation: count_move 4s ease infinite;
+	-o-animation: count_move 4s ease infinite;
+	-ms-animation: count_move 4s ease infinite;
+}
+.count-hand img{
+	width:100%;
+	height:100%;
+}
+@keyframes count_move{
+	0%{
+		transform: translateY(-2.0rem);
+	 }
+	25%{transform: translateY(-3.0rem);opacity: 0.1;}
+	50%{transform: translateY(.0rem);opacity: 0.8;}
+	75%{transform: translateY(1.0rem);}
+	100%{transform: translateY(-2.0rem);}
+}
+@-webkit-keyframes count_move{
+  0%{
+    -webkit-transform: translateY(-2.0rem);
+   }
+  25%{-webkit-transform: translateY(-3.0rem);opacity: 0.1;}
+  50%{-webkit-transform: translateY(.0rem);opacity: 0.8;}
+  75%{-webkit-transform: translateY(1.0rem);}
+  100%{-webkit-transform: translateY(-2.0rem);}
+}
+
+.count-moneyp{
+	margin: 0 auto;
+	width:10.0rem;
+	height:10.0rem;
+	overflow: hidden;
+}
+/*新生成的钱的样式*/
+#move-money{
+     width: 5.2rem;
+     height: 10.0rem;
+     position: absolute;
+     left: 24%;
+     bottom:0;
+     /*z-index: 100;*/
+     animation: move_count 4s ease forwards;
+     -webkit-animation:move_count 4s ease forwards;
+     -moz-animation: move_count 4s ease forwards;
+     -o-animation:move_count 4s ease forwards;
+     -ms-animation:move_count 4s ease forwards;
+}
+@keyframes move_count{
+  0%{
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+  50%{opacity: 0.6;}
+  100%{
+     transform: translateY(-31.25rem) scale(0.1);opacity: 0.2;
+     transform: translateY(-31.25rem) scale(0.1);opacity: 0.2;
+    }
+}
+@-webkit-keyframes move_count{
+  0%{transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+  50%{opacity: 0.6;}
+  100%{
+      transform: translateY(-31.25rem) scale(0.1);opacity: 0.2;
+      -webkit-transform: translateY(-31.25rem) scale(0.1);opacity: 0.2;
+    }
+}
+@-moz-keyframes move_count{
+  0%{
+    -moz-transform: translateY(0);
+    -moz-transform: translateY(0);
+  }
+  50%{opacity: 0.6;}
+  100%{
+     -moz-transform: translateY(-31.25rem) scale(0.1);opacity: 0.2;
+     -moz-transform: translateY(-31.25rem) scale(0.1);opacity: 0.2;
+    }
+}
